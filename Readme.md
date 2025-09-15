@@ -30,3 +30,14 @@ This method was chosen for its:
 * **Simplicity:** It's the most straightforward multi-tenancy pattern to implement and maintain.
 * **Low Operational Overhead:** Managing a single database and schema is easier than managing a separate schema or database for each new tenant.
 ---
+
+## Test Accounts
+
+All test accounts use the password: `password`
+
+* **Acme Tenant:**
+    * `admin@acme.test` (Role: ADMIN)
+    * `user@acme.test` (Role: MEMBER)
+* **Globex Tenant:**
+    * `admin@globex.test` (Role: ADMIN)
+    * `user@globex.test` (Role: MEMBER)
